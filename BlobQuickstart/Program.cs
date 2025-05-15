@@ -2,7 +2,7 @@
 using Azure.Storage.Blobs.Models;
 
 // TODO: Replace <storage-account-name> with your actual storage account name
-//removed blobservice client variable to obscure secret //Key goes here, not included in commit
+//Removed variable to obscure secret
 
 //Create a unique name for the container
 string containerName = "testcontainer";
