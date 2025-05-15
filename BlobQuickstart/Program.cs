@@ -2,7 +2,7 @@
 using Azure.Storage.Blobs.Models;
 
 // TODO: Replace <storage-account-name> with your actual storage account name
-var blobServiceClient = new BlobServiceClient("DefaultEndpointsProtocol=https;AccountName=st10439763blob;AccountKey=eLEBYt4BPqLr+HN2ghmzCNoNp30cQ75osY8NXH+02zJhcVbELZFnqc856txxL6TfG8PqYxC6Dfmr+AStXeSTbQ==;EndpointSuffix=core.windows.net");
+var blobServiceClient = new BlobServiceClient(""); //Key goes here, not included in commit
 
 //Create a unique name for the container
 string containerName = "testcontainer";
